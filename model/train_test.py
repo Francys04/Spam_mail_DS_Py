@@ -1,6 +1,15 @@
+"""This line imports the train_test_split function, which is used to split a dataset into training and testing subsets.
+ It's a common step in machine learning to evaluate models."""
 from sklearn.model_selection import train_test_split
+"""This line imports the TfidfVectorizer class, which is used for text feature extraction. 
+It converts text data into numerical vectors based on 
+Term Frequency-Inverse Document Frequency (TF-IDF) values, making it suitable for text-based machine learning tasks."""
 from sklearn.feature_extraction.text import TfidfVectorizer
+"""This line imports the LogisticRegression class, which is used for logistic regression classification. 
+Logistic regression is a common algorithm for binary and multi-class classification tasks."""
 from sklearn.linear_model import LogisticRegression
+"""This line imports the accuracy_score function, which is used to calculate the accuracy of a machine learning 
+model's predictions. It's a common metric for classification tasks."""
 from sklearn.metrics import accuracy_score
 from Src.processing import X, Y
 
